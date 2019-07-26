@@ -1,0 +1,96 @@
+.head {
+    background-image : url("../image/h_img.jpg");
+    background-size: cover;
+    height : 800px;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    padding-block-start: 400px;
+}
+#icon {
+    padding-block-start: 300px;
+}
+.about {
+    text-align: center;
+    font-family: arial;
+    padding-block-start: 30px;
+    padding-block-end: 70px;
+    font-weight: initial;
+}
+.service {
+    background-image: url("../image/s_image.jpg");
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    height: 400px;
+    width: 100%;
+}
+#main {
+    padding-block-start: 100px;
+}
+.row {
+    text-align: center;
+    padding-block-start: 100px;
+    padding-block-end: 100px;
+}
+.column {
+    float: left;
+     width: 15.33%;
+     padding-left: 200px;
+     padding-right: 20px;
+     
+}
+.portfolio {
+    text-align: center;
+    padding-block-start: 90px;
+}
+section {
+    display :flex;
+}
+#first {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+#second {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+#one {
+    padding: 20px;
+}
+#two {
+    padding: 20px;
+}
+#three {
+    padding: 20px;
+}
+#four {
+    padding: 20px;
+}
+#five {
+    padding: 20px;
+}
+#six{
+    padding: 20px;
+}
+#seven {
+    padding: 20px;
+}
+#eight {
+    padding: 20px;
+}
+input[type=text],textarea {
+    /* width: 50%; */
+    padding: 12px;
+    /* border-radius: 4px; */
+    /* box-sizing: border-box; */
+    /* margin-top: 6px; */
+    /* margin-bottom: 16px; */
+    /* resize: vertical; */
+}
+.contact {
+    background-image: url("../image/c_image.jpg");
+    color: aliceblue;
+    text-align: center;
+}
