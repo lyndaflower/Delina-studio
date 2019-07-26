@@ -13,7 +13,6 @@
 }
 .about {
     text-align: center;
-    font-family: arial;
     padding-block-start: 30px;
     padding-block-end: 70px;
     font-weight: initial;
@@ -28,18 +27,6 @@
 }
 #main {
     padding-block-start: 100px;
-}
-.row {
-    text-align: center;
-    padding-block-start: 100px;
-    padding-block-end: 100px;
-}
-.column {
-    float: left;
-     width: 15.33%;
-     padding-left: 200px;
-     padding-right: 20px;
-     
 }
 .portfolio {
     text-align: center;
@@ -81,13 +68,25 @@ section {
     padding: 20px;
 }
 input[type=text],textarea {
-     padding: 12px;
-     margin-top: 6px; 
-     margin-bottom: 16px; 
+     padding: 6px;
+     background: transparent;
 }
 .contact {
     background-image: url("../image/c_image.jpg");
     color: aliceblue;
     text-align: center;
+    font-weight: bold;
 }
-#
+#message {
+    height: 100px;
+    width: 90%;
+    justify-content: center;
+}
+th{
+    padding: 10px;
+    padding-left: 60px;
+}
+.social {
+    padding-block-start: 90px;
+    padding-block-end: 40px;
+}
