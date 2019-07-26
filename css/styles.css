@@ -83,11 +83,11 @@ section {
 input[type=text],textarea {
     /* width: 50%; */
     padding: 12px;
-    /* border-radius: 4px; */
-    /* box-sizing: border-box; */
-    /* margin-top: 6px; */
-    /* margin-bottom: 16px; */
-    /* resize: vertical; */
+    border-radius: 4px;
+    box-sizing: border-box; 
+     margin-top: 6px; 
+     margin-bottom: 16px; 
+     resize: vertical;
 }
 .contact {
     background-image: url("../image/c_image.jpg");
