@@ -17,3 +17,85 @@
     padding-block-end: 70px;
     font-weight: initial;
 }
+.service {
+    background-image: url("../image/s_image.jpg");
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    height: 400px;
+    width: 100%;
+}
+#main {
+    padding-block-start: 100px;
+}
+.portfolio {
+    text-align: center;
+    padding-block-start: 90px;
+}
+section {
+    display :flex;
+}
+#first {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+#first :hover{
+    
+    position: sticky; 
+    top: 8px;
+    left: 8px; 
+    bottom: 8px;
+    right: 8px;
+    background: transparent;
+}
+#second {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+#one {
+    padding: 20px;
+}
+#two {
+    padding: 20px;
+}
+#three {
+    padding: 20px;
+}
+#four {
+    padding: 20px;
+}
+#five {
+    padding: 20px;
+}
+#six{
+    padding: 20px;
+}
+#seven {
+    padding: 20px;
+}
+#eight {
+    padding: 20px;
+}
+input[type=text],textarea {
+     padding: 6px;
+     background: transparent;
+     color: aliceblue;
+}
+.contact {
+    background-image: url("../image/c_image.jpg");
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-block-start: 40px;
+    padding-block-end: 100px;
+}
+#name {
+    color: aliceblue;
+}
+#message {
+    height: 300px;
+    width: 70%;
+    color: aliceblue;
+    justify-content: center;
+}
+
