@@ -1,0 +1,19 @@
+.head {
+    background-image : url("../image/h_img.jpg");
+    background-size: cover;
+    height : 1000px;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+    padding-block-start: 400px;
+}
+#icon {
+    padding-block-start: 200px;
+}
+.about {
+    text-align: center;
+    padding-block-start: 30px;
+    padding-block-end: 70px;
+    font-weight: initial;
+}
