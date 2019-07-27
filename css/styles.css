@@ -98,4 +98,40 @@ input[type=text],textarea {
     color: aliceblue;
     justify-content: center;
 }
+th{
+    padding: 10px;
+    padding-left: 60px;
+}
+.social {
+    padding-block-start: 90px;
+    padding-block-end: 40px;
+}
+.footer {
+    text-align: center;
+    font-weight: bold;
+}
+#hide {
+    display: none;
+}
+#hide2 {
+    display: none;
+}
+#hide3 {
+    display: none;
+}
+#design {
+    text-align: center;
+}
+#develop {
+    text-align: center;
+}
+#manag{
+    text-align: center;
+}
+.send{
+    background-color: darkgrey;
+    color: black;
+    padding-right: 100px;
+    text-align: center;
+}
 
