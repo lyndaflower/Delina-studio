@@ -40,35 +40,41 @@
         <div class="container">
                 <h1><center>WHAT WE DO</center></h1>
                 <div class="row">
-            
-                        <div class="col-md-4">
-                            <img src="image/design_icon.png">
-                            <p>DESIGN</p>
-                            <div>
-                                <h1>Design</h1>
-                                <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
-                                <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="image/dev_icon.png">
-                            <p>DEVELOPMENT</p>
-                            <div>
-                                <h1>development</h1>
-                                <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
-                                <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <img src="image/product_icon.png">
-                            <p>PRODUCT MANAGEMENT</p>
-                            <div>
-                                <h1>Product management</h1>
-                                <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. </p>
-                                        <p>This iterative process allows for changes as business requirements evolve.</p>
-                            </div>
-                        </div>
+        <div class="col-md-4">
+             <div id="design">
+                <img src="image/design_icon.png" id="clickable">
+                    <p>DESIGN</p>
+                <div id="hide">
+                     <h1>Design</h1>
+                     <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
+                     <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div id="develop">
+                    <img src="image/dev_icon.png" id="clickable2">
+                    <p>DEVELOPMENT</p>
+                    <div id="hide2">
+                        <h1>Development</h1>
+                        <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
+                        <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
                     </div>
+            </div>
+         </div>
+        <div class="col-md-4">
+            <div id ="product">
+                    <img src="image/product_icon.png" id="clickable3">
+                    <p>PRODUCT MANAGEMENT</p>
+                    <div id="hide3">
+                        <h1>Product management</h1>
+                        <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. </p>
+                        <p>This iterative process allows for changes as business requirements evolve.</p>
+                    </div>
+
+            </div>
+        </div>
+     </div>
         </div>
             <div class="portfolio">
             <h1>PORTFOLIO</h1>
@@ -87,19 +93,24 @@
             </div>
             <div class="contact"><br><br>
                 <h1>CONTACT US</h1>
-                <div class="row">
-                    <div class="col-md-6">
-                            <input type="text" side="20" id="name" name="name" placeholder="Name..."><br>
-                            <label for="name"></label>
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                                <input type="text" id="name" name="name" placeholder="Name..." style="width: 500px" !important><br>
+                                <label for="name"></label>
+                        </div>
+                        <div class="col-md-6">
+                                <input type="text"  id="Email" name="Email" placeholder="Email..." style="width: 500px" !important><br>
+                                <label for="text" ></label>
+                        </div>
                     </div>
-                    <div class="col-md-6">
-                            <input type="text" side="20" id="Email" name="Email" placeholder="Email..."><br>
-                            <label for="text" ></label>
-                    </div>
-                </div>
-                <br>
-                        <label for="message"></label>
-                        <textarea id="message" placeholder="Your message here..."></textarea>
+                    <br>
+                            <label for="message"></label>
+                            <textarea id="message" placeholder="Your message here... " ></textarea>
+                            <div>
+                                <button class="send">send</button>
+                            </div>
+                </form>
             </div>
             <div class="container">
                 <div class="social">
@@ -117,6 +128,10 @@
                             </tr>
                         </table>
                 </div>
+                </div>
+                <div class="footer">
+                    <p>DELANI STUDIO</p>
+                    <p>2019</p>
                 </div>
             </div>
 </body>

@@ -1,7 +1,7 @@
 .head {
     background-image : url("../image/h_img.jpg");
     background-size: cover;
-    height : 800px;
+    height : 1000px;
     width: 100%;
     text-align: center;
     color: aliceblue;
@@ -9,7 +9,7 @@
     padding-block-start: 400px;
 }
 #icon {
-    padding-block-start: 300px;
+    padding-block-start: 200px;
 }
 .about {
     text-align: center;
@@ -38,6 +38,15 @@ section {
 #first {
     flex-wrap: wrap-reverse;
     justify-content: center;
+}
+#first :hover{
+    
+    position: sticky; 
+    top: 8px;
+    left: 8px; 
+    bottom: 8px;
+    right: 8px;
+    background: transparent;
 }
 #second {
     flex-wrap: wrap-reverse;
@@ -70,16 +79,23 @@ section {
 input[type=text],textarea {
      padding: 6px;
      background: transparent;
+     color: aliceblue;
 }
 .contact {
     background-image: url("../image/c_image.jpg");
-    color: aliceblue;
+    color: white;
     text-align: center;
     font-weight: bold;
+    padding-block-start: 40px;
+    padding-block-end: 100px;
+}
+#name {
+    color: aliceblue;
 }
 #message {
-    height: 100px;
-    width: 90%;
+    height: 300px;
+    width: 70%;
+    color: aliceblue;
     justify-content: center;
 }
 th{
@@ -89,4 +105,32 @@ th{
 .social {
     padding-block-start: 90px;
     padding-block-end: 40px;
+}
+.footer {
+    text-align: center;
+    font-weight: bold;
+}
+#hide {
+    display: none;
+}
+#hide2 {
+    display: none;
+}
+#hide3 {
+    display: none;
+}
+#design {
+    text-align: center;
+}
+#develop {
+    text-align: center;
+}
+#manag{
+    text-align: center;
+}
+.send{
+    background-color: darkgrey;
+    color: black;
+    padding-right: 100px;
+    text-align: center;
 }
