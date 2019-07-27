@@ -1,7 +1,7 @@
 .head {
     background-image : url("../image/h_img.jpg");
     background-size: cover;
-    height : 1000px;
+    height : 600px;
     width: 100%;
     text-align: center;
     color: aliceblue;
@@ -9,7 +9,7 @@
     padding-block-start: 400px;
 }
 #icon {
-    padding-block-start: 200px;
+    padding-block-start: 100px;
 }
 .about {
     text-align: center;
@@ -25,9 +25,9 @@
     height: 400px;
     width: 100%;
 }
-#main {
+/* #main {
     padding-block-start: 100px;
-}
+} */
 .portfolio {
     text-align: center;
     padding-block-start: 90px;
@@ -99,8 +99,7 @@ input[type=text],textarea {
     justify-content: center;
 }
 th{
-    padding: 10px;
-    padding-left: 60px;
+    padding-left: 80px;
 }
 .social {
     padding-block-start: 90px;
