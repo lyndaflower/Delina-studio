@@ -1,7 +1,7 @@
 .head {
     background-image : url("../image/h_img.jpg");
     background-size: cover;
-    height : 600px;
+    height : 900px;
     width: 100%;
     text-align: center;
     color: aliceblue;
@@ -108,24 +108,6 @@ th{
 .footer {
     text-align: center;
     font-weight: bold;
-}
-#hide {
-    display: none;
-}
-#hide2 {
-    display: none;
-}
-#hide3 {
-    display: none;
-}
-#design {
-    text-align: center;
-}
-#develop {
-    text-align: center;
-}
-#manag{
-    text-align: center;
 }
 .send{
     background-color: darkgrey;
