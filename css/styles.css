@@ -25,9 +25,9 @@
     height: 400px;
     width: 100%;
 }
-/* #main {
+#main {
     padding-block-start: 100px;
-} */
+}
 .portfolio {
     text-align: center;
     padding-block-start: 90px;
@@ -83,7 +83,7 @@ input[type=text],textarea {
 }
 .contact {
     background-image: url("../image/c_image.jpg");
-    color: white;
+    color: rgb(99, 94, 94);
     text-align: center;
     font-weight: bold;
     padding-block-start: 40px;
@@ -108,15 +108,6 @@ th{
 .footer {
     text-align: center;
     font-weight: bold;
-}
-#hide {
-    display: none;
-}
-#hide2 {
-    display: none;
-}
-#hide3 {
-    display: none;
 }
 #design {
     text-align: center;
